@@ -15,3 +15,9 @@ def is_anagram(first_string, second_string):
 
     if len(first_string) != len(second_string):
         return (first_string, second_string, False)
+
+    for index in range(len(first_string)):
+        if first_string[index] != second_string[index]:
+            return (first_string, second_string, False)
+
+    return (first_string, second_string, True)
