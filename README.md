@@ -6,6 +6,11 @@
 
 * Solved using Python
 
+<details>
+<summary>Description of created solutions:</summary>
+<br>
+This is how you dropdown.
+</details>
 
 <!---
 ### Instructions
