@@ -9,7 +9,11 @@
 <details>
 <summary>Description of created solutions:</summary>
 <br>
-This is how you dropdown.
+  
+| Function | Description | Location |
+| ----------- | ----------- | ----------- |
+| `study_schedule`   | ... | `challenges/challenge_study_schedule.py` |
+
 </details>
 
 <!---
