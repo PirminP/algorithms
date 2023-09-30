@@ -31,6 +31,47 @@
 </details>
 
 
+## Structure of project
+  ```
+  .
+  ├── challenges
+  │   ├──🔹 challenge_anagrams.py
+  │   ├──🔸 challenge_encrypt_message.py
+  │   ├──🔹 challenge_find_the_duplicate.py
+  │   ├──🔹 challenge_palindromes_iterative.py
+  │   ├──🔹 challenge_palindromes_recursive.py
+  │   └──🔹 challenge_study_schedule.py
+  ├── tests
+  │   ├── encrypt
+  │   │   ├──🔸 __init__.py
+  │   │   ├──🔸 conftest.py
+  │   │   ├──🔸 mocks.py
+  │   │   └──🔹 test_encrypt.py
+  │   ├── results
+  │   │   └──🔸 .gitignore
+  │   ├──🔸 __init__.py
+  │   ├──🔸 complexities.py
+  │   ├──🔸 generators.py
+  │   ├──🔸 marker.py
+  │   ├──🔸 test_anagrams.py
+  │   ├──🔸 test_find_the_duplicate.py
+  │   ├──🔸 test_palindromes_iterative.py
+  │   ├──🔸 test_palindromes_recursive.py
+  │   └──🔸 test_study_schedule.py
+  ├──🔸 dev-requirements.txt
+  ├──🔸 pyproject.toml
+  ├──🔸 README.md
+  ├──🔸 requirements.txt
+  ├──🔸 setup.cfg
+  ├──🔸 setup.py
+  ├──🔸 trybe-filter-repo.sh
+  └──🔸 trybe.yml
+
+Legenda:
+  🔸 Arquivos que não podem ser alterados.
+  🔹 Arquivos a serem alterados para realizar os requisitos.
+```
+
 <!---
 ### Instructions
 * To run the repository locally, clone the project and use the following commands to initialize Docker:
@@ -44,20 +85,3 @@
 -->
 
 
-<!---
-### Tasks
-
-  | Task     | Description |
-  | ----------- | ----------- |
-  | 1   | Creation of data base |
-  | 2   | Query that displays the 'songs', 'artists' and 'albums' columns with their respective quantities |
-  | 3   | Query that displays the column of 'user' names with number of songs listened and total number of minutes played |
-  | 4   | Query containing the name of 'user' and their condition regarding reproducing music tracks in 2021 (active or inactive) |
-  | 5   | Query containing the two songs most played by users |
-  | 6   | Query containing users' minimum, maximum, average and total billings of all available plans |
-  | 7   | Query containing the names of 'artists', 'albums' and number of 'followers' of played music by user |
-  | 8   | Query containing the information of a specific artist about written albums, with columns 'artist' and 'albums' |
-  | 9   | - |
-  | 10  | - |
-  | 11  | - |
--->
