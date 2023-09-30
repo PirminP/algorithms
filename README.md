@@ -20,6 +20,17 @@
 
 </details>
 
+<details>
+<summary>Description of created test:</summary>
+<br>
+  
+| Test | Description | Location |
+| ----------- | ----------- | ----------- |
+| `test_encrypt_message`   | test... | `tests/encrypt/test_encrypt.py` |
+
+</details>
+
+
 <!---
 ### Instructions
 * To run the repository locally, clone the project and use the following commands to initialize Docker:
