@@ -74,10 +74,10 @@ Legenda:
 * Clone the project and use the following commands:
   
 ```
-To install dependencies and start the applications:
+To install dependencies and start applications:
 <-- in root of the project -->
-python3 -m venv .venv // create the virtual environment
-source .venv/bin/activate // activate the virtual environment
+python3 -m venv .venv // create virtual environment
+source .venv/bin/activate // activate virtual environment
 python3 -m pip install -r dev-requirements.txt // install dependencies
 
 
