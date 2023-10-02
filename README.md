@@ -13,7 +13,7 @@
 | Function | Description | Location |
 | ----------- | ----------- | ----------- |
 | `study_schedule`   | Returns number of students online at the times informed in array of tuples as `permanence_period` compared to the time informed as `target_time` | `challenges/challenge_study_schedule.py` |
-| `is_palindrome_recursive`   | Returns... | `challenges/challenge_palindromes_recursive.py` |
+| `is_palindrome_recursive`   |  Evaluate whether a word is palindromic, in a recursive way| `challenges/challenge_palindromes_recursive.py` |
 | `is_anagram`   | Returns... | `challenges/challenge_anagrams.py` |
 | `find_duplicate`   | - | `challenges/challenge_find_the_duplicate.py` |
 | `is_palindrome_iterative`   | - | `challenges/challenge_palindromes_interative.py` |
