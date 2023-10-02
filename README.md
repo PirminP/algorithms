@@ -72,16 +72,18 @@ Legenda:
   🔹 Arquivos a serem alterados para realizar os requisitos.
 ```
 
-<!---
 ### Instructions
-* To run the repository locally, clone the project and use the following commands to initialize Docker:
+* Clone the project and use the following commands:
   
-  ```
-  docker-compose up -d // start application with docker
-  docker attach one_for_all
-  npm install // install dependencies
-  docker-compose down // stop application
-  ```
--->
+```
+To install dependencies and start the applications:
+<-- in root of the project -->
+python3 -m venv .venv // create the virtual environment
+source .venv/bin/activate // activate the virtual environment
+python3 -m pip install -r dev-requirements.txt // install dependencies
 
 
+To run the tests:
+<-- in root of the project -->
+python3 -m pytest
+```
