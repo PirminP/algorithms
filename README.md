@@ -26,7 +26,7 @@
   
 | Test | Description | Location |
 | ----------- | ----------- | ----------- |
-| `test_encrypt_message`   | test... | `tests/encrypt/test_encrypt.py` |
+| `test_encrypt_message`   | Creating tests for the word encryption function | `tests/encrypt/test_encrypt.py` |
 
 </details>
 
